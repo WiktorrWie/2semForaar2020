@@ -3,3 +3,12 @@
  * purpose: styles, animation etc
  * further development: meyer reset perhaps?
  **/
+img{
+    padding: 20px;
+    filter: blur(1px);
+}
+img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    filter: blur(0px);
+}
